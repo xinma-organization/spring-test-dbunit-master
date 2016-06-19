@@ -1,0 +1,5 @@
+2015-10-13日：
+	1. change Java Compiler to jdk1.7
+	2. spring-test-dbunit -> pom.xml 将java.version改成1.7
+	3. DatabaseSetup.java,DatabaseTearDown.java,ExpectedDatabase.java @Repeatable 注解去掉
+	4. MultiConnectionTests.java  多个@Repeatable注解只保留一个 
